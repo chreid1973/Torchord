@@ -1,0 +1,14 @@
+{
+  "name": "3hpm-torchord",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Private TorBox-powered BitChord source (experimental)",
+  "scripts": {
+    "check": "node --check worker.js",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
